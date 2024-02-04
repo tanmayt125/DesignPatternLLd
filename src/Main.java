@@ -11,6 +11,5 @@ public class Main {
          System.out.println(burger.getDescription()+" - "+burger.price());
          burger = new ExtraVegBurger(burger);
          System.out.println(burger.getDescription()+" - "+burger.price());
-
     }
 }
