@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cadf43a9-d862-48e0-8496-aa44a9b00787" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/ArunPanwar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/ArunPanwar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Channel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/ObserverDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/ObserverDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Subscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/TanmayTiwari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/TanmayTiwari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +37,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DecoratorDriver.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverDriver.executor": "Run",
+    "Application.TVSetDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -54,7 +50,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DecoratorDriver">
+  <component name="RunManager" selected="Application.TVSetDriver">
     <configuration name="DecoratorDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecoratorDesignPattern.DecoratorDriver" />
       <module name="Design Patterns" />
@@ -88,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TVSetDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingeltonGeneral.TVSetDriver" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingeltonGeneral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TVSetDriver" />
         <item itemvalue="Application.DecoratorDriver" />
         <item itemvalue="Application.ObserverDriver" />
         <item itemvalue="Application.Main" />
@@ -130,12 +140,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
+          <line>3</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
+          <line>1</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
