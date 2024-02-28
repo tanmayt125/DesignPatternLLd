@@ -1,7 +1,8 @@
 package RaceCondition;
 
 public class A {
-    public static int x;
+    private int x;
+
     public void updateX(){
         x+=1;
         x-=1;
