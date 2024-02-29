@@ -11,8 +11,15 @@ public class ListAndMapDriver {
 
         // traversal
         for(int x:lt){
-            System.out.println(x);
+            System.out.print(x + " ");
         }
+        System.out.println();
+
+//        lt[0]+=5;
+        System.out.println(lt.get(0));
+        lt.set(0,lt.get(0)+10);
+        System.out.println(lt.get(0));
+
 
         // sort
         // in cpp
@@ -31,6 +38,7 @@ public class ListAndMapDriver {
         // updating any index
         lt.set(0,100);
         System.out.println(lt.get(0));
+
 
         // map
 
