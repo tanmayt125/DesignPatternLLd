@@ -4,6 +4,23 @@ import java.util.*;
 
 public class ListAndMapDriver {
     public static void main(String[] args){
+
+        Integer ar[] = new Integer[5];
+        for(int i=0;i<5;i++) {
+            ar[i] = i * 6;
+        }
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
+        }
+        Arrays.sort(ar);
+        System.out.println();
+        List<Integer>lt1 = Arrays.asList(ar);
+        Iterator<Integer>it1= lt1.iterator();
+        while(it1.hasNext()){
+            System.out.print(it1.next()+" ");
+        }
+        System.out.println();
+
         List<Integer>lt = new ArrayList<>();
         for(int i=0;i<5;i++){
             lt.add(i*5);
@@ -38,7 +55,6 @@ public class ListAndMapDriver {
         // updating any index
         lt.set(0,100);
         System.out.println(lt.get(0));
-
 
         // map
 
