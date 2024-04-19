@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cadf43a9-d862-48e0-8496-aa44a9b00787" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/BuilderDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/BuilderDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuilderDesignPattern/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderDesignPattern/StudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeDesignPattern/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeDesignPattern/PrototypeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/PrototypeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypeDesignPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypeDesignPattern/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     "Application.ListAndMapDriver.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverDriver.executor": "Run",
+    "Application.PrototypeDriver.executor": "Run",
     "Application.RaceDriver.executor": "Run",
     "Application.StackAndQueueDriver.executor": "Run",
     "Application.StringDriver.executor": "Run",
@@ -58,7 +60,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BuilderDriver">
+  <component name="RunManager" selected="Application.PrototypeDriver">
     <configuration name="BuilderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.BuilderDriver" />
       <module name="Design Patterns" />
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RaceCondition.RaceDriver" />
+    <configuration name="PrototypeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypeDesignPattern.PrototypeDriver" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RaceCondition.*" />
+          <option name="PATTERN" value="PrototypeDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackAndQueueDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.StackAndQueueDriver" />
+    <configuration name="RaceDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RaceCondition.RaceDriver" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollections.*" />
+          <option name="PATTERN" value="RaceCondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeDriver" />
         <item itemvalue="Application.BuilderDriver" />
         <item itemvalue="Application.ListAndMapDriver" />
         <item itemvalue="Application.StringDriver" />
         <item itemvalue="Application.RaceDriver" />
-        <item itemvalue="Application.StackAndQueueDriver" />
       </list>
     </recent_temporary>
   </component>
