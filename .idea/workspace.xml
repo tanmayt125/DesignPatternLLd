@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cadf43a9-d862-48e0-8496-aa44a9b00787" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/IssueOfNotUsingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/IssueOfNotUsingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/StrategyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/StrategyDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     "Application.PrototypeDriver.executor": "Run",
     "Application.RaceDriver.executor": "Run",
     "Application.StackAndQueueDriver.executor": "Run",
+    "Application.StrategyDriver.executor": "Run",
     "Application.StringDriver.executor": "Run",
     "Application.TVSetDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,7 +59,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrototypeDriver">
+  <component name="RunManager" selected="Application.StrategyDriver">
     <configuration name="BuilderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.BuilderDriver" />
       <module name="Design Patterns" />
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RaceCondition.RaceDriver" />
+    <configuration name="StrategyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyDesignPattern.StrategyDriver" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RaceCondition.*" />
+          <option name="PATTERN" value="StrategyDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyDriver" />
         <item itemvalue="Application.PrototypeDriver" />
         <item itemvalue="Application.BuilderDriver" />
         <item itemvalue="Application.ListAndMapDriver" />
         <item itemvalue="Application.StringDriver" />
-        <item itemvalue="Application.RaceDriver" />
       </list>
     </recent_temporary>
   </component>
