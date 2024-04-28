@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cadf43a9-d862-48e0-8496-aa44a9b00787" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/BaseBizRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/BaseBizResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/BaseCoreServiceTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/BaseProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/CreateOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/Paytm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateDesignPattern/Paytm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemplateDesignPattern/TemplateDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateDesignPattern/TemplateDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +42,7 @@
     "Application.DecoratorDriver.executor": "Run",
     "Application.ListAndMapDriver.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MediatorDriver.executor": "Run",
     "Application.ObserverDriver.executor": "Run",
     "Application.PrototypeDriver.executor": "Run",
     "Application.RaceDriver.executor": "Run",
@@ -66,7 +60,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TemplateDriver">
+  <component name="RunManager" selected="Application.MediatorDriver">
     <configuration name="BuilderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuilderDesignPattern.BuilderDriver" />
       <module name="Design Patterns" />
@@ -80,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListAndMapDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCollections.ListAndMapDriver" />
+    <configuration name="MediatorDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MediatorDesignPattern.MediatorDriver" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCollections.*" />
+          <option name="PATTERN" value="MediatorDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorDriver" />
         <item itemvalue="Application.TemplateDriver" />
         <item itemvalue="Application.StrategyDriver" />
         <item itemvalue="Application.PrototypeDriver" />
         <item itemvalue="Application.BuilderDriver" />
-        <item itemvalue="Application.ListAndMapDriver" />
       </list>
     </recent_temporary>
   </component>
