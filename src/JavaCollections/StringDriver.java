@@ -1,9 +1,17 @@
 package JavaCollections;
 
+import java.util.Arrays;
+
 public class StringDriver {
     public static void main(String []args){
 
-        String s = "abc";
+        String s = "acb";
+        char ar[] = s.toCharArray();
+        Arrays.sort(ar);
+        s = new String(ar);
+
+        System.out.println(s);
+
         for(int i=0;i<s.length();i++){
             System.out.print(s.charAt(i)+"  ");
         }
